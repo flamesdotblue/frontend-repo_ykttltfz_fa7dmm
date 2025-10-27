@@ -1,4 +1,4 @@
-import { Sakura, Palette } from 'lucide-react'
+import { Flower2, Palette } from 'lucide-react'
 
 export default function Header() {
   return (
@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-pink-400 to-fuchsia-600 flex items-center justify-center shadow-md">
-              <Sakura className="text-white" size={22} />
+              <Flower2 className="text-white" size={22} />
             </div>
             <div>
               <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-gray-800">
